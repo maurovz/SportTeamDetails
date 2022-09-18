@@ -18,9 +18,9 @@ final class TeamDetailViewModel {
   var output = CurrentValueSubject<State, Never>(.loading)
 
   private var cancellables = Set<AnyCancellable>()
-  private let getTeamDetailsUseCase: GetTeamDetailsUseCase
+  private let getTeamDetailsUseCase: GetTeamDetailsUseCaseProtocol
 
-  init(getTeamDetailsUseCase: GetTeamDetailsUseCase) {
+  init(getTeamDetailsUseCase: GetTeamDetailsUseCaseProtocol) {
     self.getTeamDetailsUseCase = getTeamDetailsUseCase
 
     bindInput()
@@ -39,10 +39,15 @@ final class TeamDetailViewModel {
   }
 
   func getTeamDetails() {
-    getTeamDetailsUseCase.getTeam(completion: { [weak self] model in
+    getTeamDetailsUseCase.getTeam(completion: { [weak self] result in
       guard let self = self else { return }
 
-      self.output.send(.didFetchTeam(model: model))
+      switch result {
+      case .success(let model):
+        self.output.send(.didFetchTeam(model: model))
+      case .failure(let error):
+        self.output.send(.didGetError(error: error))
+      }
     })
   }
 }

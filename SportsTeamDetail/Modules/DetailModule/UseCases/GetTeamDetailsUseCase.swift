@@ -1,13 +1,17 @@
 import UIKit
 
-final class GetTeamDetailsUseCase {
-  func getTeam(completion: @escaping (Team) -> Void) {
+protocol GetTeamDetailsUseCaseProtocol {
+  func getTeam(completion: @escaping (Result<Team, Error>) -> Void)
+}
+
+final class GetTeamDetailsUseCase: GetTeamDetailsUseCaseProtocol {
+  func getTeam(completion: @escaping (Result<Team, Error>) -> Void) {
     RepositoryFallbackStrategy().fetchData { result in
       switch result {
       case .success(let team):
-        completion(team)
-      case .failure(_):
-        completion(.init(squads: []))
+        completion(.success(team))
+      case .failure(let error):
+        completion(.failure(error))
       }
     }
   }
