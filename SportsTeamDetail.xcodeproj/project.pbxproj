@@ -16,6 +16,8 @@
 		54ED13C028D757E30000C4E0 /* SportsTeamDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */; };
 		54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */; };
 		54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */; };
+		54ED13E128D75D740000C4E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E028D75D740000C4E0 /* HomeViewController.swift */; };
+		54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E228D75D820000C4E0 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTeamDetailTests.swift; sourceTree = "<group>"; };
 		54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Extension.swift"; sourceTree = "<group>"; };
+		54ED13E028D75D740000C4E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54ED13E228D75D820000C4E0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 		54ED13DE28D75CFA0000C4E0 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13E028D75D740000C4E0 /* HomeViewController.swift */,
+				54ED13E228D75D820000C4E0 /* HomeView.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -237,10 +243,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				54ED13AD28D757E20000C4E0 /* ViewController.swift in Sources */,
+				54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */,
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
 				54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */,
 				54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */,
 				54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */,
+				54ED13E128D75D740000C4E0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
