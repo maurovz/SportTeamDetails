@@ -14,6 +14,7 @@
 		54ED13B228D757E30000C4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54ED13B128D757E30000C4E0 /* Assets.xcassets */; };
 		54ED13B528D757E30000C4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54ED13B328D757E30000C4E0 /* LaunchScreen.storyboard */; };
 		54ED13C028D757E30000C4E0 /* SportsTeamDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */; };
+		54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		54ED13B628D757E30000C4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54ED13BB28D757E30000C4E0 /* SportsTeamDetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTeamDetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTeamDetailTests.swift; sourceTree = "<group>"; };
+		54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,8 @@
 		54ED13A728D757E20000C4E0 /* SportsTeamDetail */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13D828D759D60000C4E0 /* Modules */,
+				54ED13D928D759DD0000C4E0 /* Extensions */,
 				54ED13A828D757E20000C4E0 /* AppDelegate.swift */,
 				54ED13AA28D757E20000C4E0 /* SceneDelegate.swift */,
 				54ED13AC28D757E20000C4E0 /* ViewController.swift */,
@@ -95,6 +99,21 @@
 				54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */,
 			);
 			path = SportsTeamDetailTests;
+			sourceTree = "<group>";
+		};
+		54ED13D828D759D60000C4E0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		54ED13D928D759DD0000C4E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +219,7 @@
 			files = (
 				54ED13AD28D757E20000C4E0 /* ViewController.swift in Sources */,
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
+				54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */,
 				54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
