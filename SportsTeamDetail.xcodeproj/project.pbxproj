@@ -22,6 +22,7 @@
 		54ED13EF28D767950000C4E0 /* TeamDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */; };
 		54ED13F328D76B0C0000C4E0 /* HomeModuleComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */; };
 		54ED13F928D7719E0000C4E0 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */; };
+		54ED13FB28D777930000C4E0 /* DetailOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewModel.swift; sourceTree = "<group>"; };
 		54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleComposer.swift; sourceTree = "<group>"; };
 		54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +201,6 @@
 		54ED13F128D76AE00000C4E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +215,8 @@
 		54ED13F528D771210000C4E0 /* Team */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */,
+				54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */,
 			);
 			path = Team;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			files = (
 				54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */,
 				54ED13E928D764520000C4E0 /* Theme.swift in Sources */,
+				54ED13FB28D777930000C4E0 /* DetailOptionsView.swift in Sources */,
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
 				54ED13E728D764410000C4E0 /* Team.swift in Sources */,
 				54ED13EF28D767950000C4E0 /* TeamDetailViewModel.swift in Sources */,
