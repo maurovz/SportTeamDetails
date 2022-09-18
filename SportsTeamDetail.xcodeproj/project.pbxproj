@@ -16,6 +16,8 @@
 		54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */; };
 		54ED13E128D75D740000C4E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E028D75D740000C4E0 /* HomeViewController.swift */; };
 		54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E228D75D820000C4E0 /* HomeView.swift */; };
+		54ED13E728D764410000C4E0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E628D764410000C4E0 /* Team.swift */; };
+		54ED13E928D764520000C4E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E828D764520000C4E0 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Extension.swift"; sourceTree = "<group>"; };
 		54ED13E028D75D740000C4E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		54ED13E228D75D820000C4E0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		54ED13E628D764410000C4E0 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		54ED13E828D764520000C4E0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +135,26 @@
 		54ED13DF28D75D020000C4E0 /* DetailModule */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13E528D7642C0000C4E0 /* View */,
+				54ED13E428D764260000C4E0 /* Model */,
 			);
 			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		54ED13E428D764260000C4E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13E628D764410000C4E0 /* Team.swift */,
+				54ED13E828D764520000C4E0 /* Theme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54ED13E528D7642C0000C4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */,
+				54ED13E928D764520000C4E0 /* Theme.swift in Sources */,
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
+				54ED13E728D764410000C4E0 /* Team.swift in Sources */,
 				54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */,
 				54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */,
 				54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */,
