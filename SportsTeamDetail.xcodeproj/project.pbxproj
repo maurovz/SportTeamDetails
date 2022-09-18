@@ -15,6 +15,7 @@
 		54ED13B528D757E30000C4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54ED13B328D757E30000C4E0 /* LaunchScreen.storyboard */; };
 		54ED13C028D757E30000C4E0 /* SportsTeamDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */; };
 		54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */; };
+		54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		54ED13BB28D757E30000C4E0 /* SportsTeamDetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTeamDetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTeamDetailTests.swift; sourceTree = "<group>"; };
 		54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,8 @@
 		54ED13D828D759D60000C4E0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13DF28D75D020000C4E0 /* DetailModule */,
+				54ED13DE28D75CFA0000C4E0 /* HomeModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -112,8 +116,23 @@
 			isa = PBXGroup;
 			children = (
 				54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */,
+				54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		54ED13DE28D75CFA0000C4E0 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		54ED13DF28D75D020000C4E0 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +240,7 @@
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
 				54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */,
 				54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */,
+				54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
