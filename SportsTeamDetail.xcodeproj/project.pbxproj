@@ -146,8 +146,6 @@
 			children = (
 				54ED13F028D76AD30000C4E0 /* Composer */,
 				54ED13F128D76AE00000C4E0 /* View */,
-				54ED13E028D75D740000C4E0 /* HomeViewController.swift */,
-				54ED13E228D75D820000C4E0 /* HomeView.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -209,6 +207,8 @@
 		54ED13F128D76AE00000C4E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13E028D75D740000C4E0 /* HomeViewController.swift */,
+				54ED13E228D75D820000C4E0 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

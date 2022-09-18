@@ -20,6 +20,15 @@ class PlayerTableViewCell: UITableViewCell {
   required init?(coder: NSCoder) {
     nil
   }
+
+  override func prepareForReuse() {
+    super.prepareForReuse()
+    textLabel?.text = ""
+    playerImage.image = nil
+    playerName.text = ""
+    playerCountry.text = ""
+    scoreLabel.text = ""
+  }
 }
 
 private extension PlayerTableViewCell {

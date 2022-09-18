@@ -104,17 +104,13 @@ extension TeamDetailView: UITableViewDelegate, UITableViewDataSource {
 
     if indexPath.row == 0 {
       cell.textLabel?.text = team.squads[indexPath.section].name
-      cell.playerImage.image = nil
-      cell.playerName.text = ""
-      cell.playerCountry.text = ""
-      cell.scoreLabel.text = ""
     }
     else {
-      cell.textLabel?.text = ""
+      let player = team.squads[indexPath.section].player[indexPath.row - 1]
       cell.playerImage.image = UIImage(named: "player")
-      cell.playerName.text = team.squads[indexPath.section].name
-      cell.playerCountry.text = "Argentina"
-      cell.scoreLabel.text = "50"
+      cell.playerName.text = player.name
+      cell.playerCountry.text = player.country
+      cell.scoreLabel.text = player.score
     }
 
     return cell
