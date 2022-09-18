@@ -3,7 +3,7 @@ import UIKit
 final class HomeViewController: UIViewController {
   private let homeView = HomeView()
 
-  public init() {
+  public init(uclSelectionAction: @escaping () -> Void, uelSelectionAction: @escaping () -> Void) {
     super.init(nibName: nil, bundle: Bundle(for: HomeViewController.self))
   }
 

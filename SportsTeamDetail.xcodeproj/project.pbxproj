@@ -19,6 +19,8 @@
 		54ED13E728D764410000C4E0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E628D764410000C4E0 /* Team.swift */; };
 		54ED13E928D764520000C4E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E828D764520000C4E0 /* Theme.swift */; };
 		54ED13EC28D764D80000C4E0 /* GetTeamDetailsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13EB28D764D80000C4E0 /* GetTeamDetailsUseCase.swift */; };
+		54ED13EF28D767950000C4E0 /* TeamDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */; };
+		54ED13F328D76B0C0000C4E0 /* HomeModuleComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		54ED13E628D764410000C4E0 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		54ED13E828D764520000C4E0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		54ED13EB28D764D80000C4E0 /* GetTeamDetailsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTeamDetailsUseCase.swift; sourceTree = "<group>"; };
+		54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewModel.swift; sourceTree = "<group>"; };
+		54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 		54ED13DE28D75CFA0000C4E0 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13F028D76AD30000C4E0 /* Composer */,
+				54ED13F128D76AE00000C4E0 /* View */,
 				54ED13E028D75D740000C4E0 /* HomeViewController.swift */,
 				54ED13E228D75D820000C4E0 /* HomeView.swift */,
 			);
@@ -139,6 +145,7 @@
 			children = (
 				54ED13EA28D764C90000C4E0 /* UseCases */,
 				54ED13E528D7642C0000C4E0 /* View */,
+				54ED13ED28D7676D0000C4E0 /* ViewModel */,
 				54ED13E428D764260000C4E0 /* Model */,
 			);
 			path = DetailModule;
@@ -166,6 +173,29 @@
 				54ED13EB28D764D80000C4E0 /* GetTeamDetailsUseCase.swift */,
 			);
 			path = UseCases;
+			sourceTree = "<group>";
+		};
+		54ED13ED28D7676D0000C4E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54ED13F028D76AD30000C4E0 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		54ED13F128D76AE00000C4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,11 +302,13 @@
 				54ED13E928D764520000C4E0 /* Theme.swift in Sources */,
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
 				54ED13E728D764410000C4E0 /* Team.swift in Sources */,
+				54ED13EF28D767950000C4E0 /* TeamDetailViewModel.swift in Sources */,
 				54ED13EC28D764D80000C4E0 /* GetTeamDetailsUseCase.swift in Sources */,
 				54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */,
 				54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */,
 				54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */,
 				54ED13E128D75D740000C4E0 /* HomeViewController.swift in Sources */,
+				54ED13F328D76B0C0000C4E0 /* HomeModuleComposer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
