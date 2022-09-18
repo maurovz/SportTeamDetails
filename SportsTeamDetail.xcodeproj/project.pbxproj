@@ -23,6 +23,10 @@
 		54ED13F328D76B0C0000C4E0 /* HomeModuleComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */; };
 		54ED13F928D7719E0000C4E0 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */; };
 		54ED13FB28D777930000C4E0 /* DetailOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */; };
+		54ED13FD28D77C300000C4E0 /* TeamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13FC28D77C300000C4E0 /* TeamDetailView.swift */; };
+		54ED13FF28D77C590000C4E0 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13FE28D77C590000C4E0 /* PlayerTableViewCell.swift */; };
+		54ED140128D77C8A0000C4E0 /* TeamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED140028D77C8A0000C4E0 /* TeamDetailViewController.swift */; };
+		54ED140328D781A80000C4E0 /* DetailModuleComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED140228D781A80000C4E0 /* DetailModuleComposer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleComposer.swift; sourceTree = "<group>"; };
 		54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOptionsView.swift; sourceTree = "<group>"; };
+		54ED13FC28D77C300000C4E0 /* TeamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailView.swift; sourceTree = "<group>"; };
+		54ED13FE28D77C590000C4E0 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		54ED140028D77C8A0000C4E0 /* TeamDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewController.swift; sourceTree = "<group>"; };
+		54ED140228D781A80000C4E0 /* DetailModuleComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModuleComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +216,7 @@
 		54ED13F428D770FD0000C4E0 /* Composer */ = {
 			isa = PBXGroup;
 			children = (
+				54ED140228D781A80000C4E0 /* DetailModuleComposer.swift */,
 			);
 			path = Composer;
 			sourceTree = "<group>";
@@ -215,6 +224,8 @@
 		54ED13F528D771210000C4E0 /* Team */ = {
 			isa = PBXGroup;
 			children = (
+				54ED140028D77C8A0000C4E0 /* TeamDetailViewController.swift */,
+				54ED13FC28D77C300000C4E0 /* TeamDetailView.swift */,
 				54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */,
 				54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */,
 			);
@@ -224,6 +235,7 @@
 		54ED13F728D771330000C4E0 /* Squad */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13FE28D77C590000C4E0 /* PlayerTableViewCell.swift */,
 			);
 			path = Squad;
 			sourceTree = "<group>";
@@ -330,15 +342,19 @@
 			files = (
 				54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */,
 				54ED13E928D764520000C4E0 /* Theme.swift in Sources */,
+				54ED140128D77C8A0000C4E0 /* TeamDetailViewController.swift in Sources */,
 				54ED13FB28D777930000C4E0 /* DetailOptionsView.swift in Sources */,
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
+				54ED140328D781A80000C4E0 /* DetailModuleComposer.swift in Sources */,
 				54ED13E728D764410000C4E0 /* Team.swift in Sources */,
 				54ED13EF28D767950000C4E0 /* TeamDetailViewModel.swift in Sources */,
+				54ED13FD28D77C300000C4E0 /* TeamDetailView.swift in Sources */,
 				54ED13EC28D764D80000C4E0 /* GetTeamDetailsUseCase.swift in Sources */,
 				54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */,
 				54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */,
 				54ED13F928D7719E0000C4E0 /* DetailHeaderView.swift in Sources */,
 				54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */,
+				54ED13FF28D77C590000C4E0 /* PlayerTableViewCell.swift in Sources */,
 				54ED13E128D75D740000C4E0 /* HomeViewController.swift in Sources */,
 				54ED13F328D76B0C0000C4E0 /* HomeModuleComposer.swift in Sources */,
 			);
