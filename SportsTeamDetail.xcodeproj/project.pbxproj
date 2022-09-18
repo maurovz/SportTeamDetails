@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13A828D757E20000C4E0 /* AppDelegate.swift */; };
 		54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13AA28D757E20000C4E0 /* SceneDelegate.swift */; };
-		54ED13AD28D757E20000C4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13AC28D757E20000C4E0 /* ViewController.swift */; };
-		54ED13B028D757E20000C4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54ED13AE28D757E20000C4E0 /* Main.storyboard */; };
 		54ED13B228D757E30000C4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54ED13B128D757E30000C4E0 /* Assets.xcassets */; };
 		54ED13B528D757E30000C4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54ED13B328D757E30000C4E0 /* LaunchScreen.storyboard */; };
 		54ED13C028D757E30000C4E0 /* SportsTeamDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */; };
+		54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */; };
+		54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */; };
+		54ED13E128D75D740000C4E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E028D75D740000C4E0 /* HomeViewController.swift */; };
+		54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E228D75D820000C4E0 /* HomeView.swift */; };
+		54ED13E728D764410000C4E0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E628D764410000C4E0 /* Team.swift */; };
+		54ED13E928D764520000C4E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13E828D764520000C4E0 /* Theme.swift */; };
+		54ED13EC28D764D80000C4E0 /* GetTeamDetailsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13EB28D764D80000C4E0 /* GetTeamDetailsUseCase.swift */; };
+		54ED13EF28D767950000C4E0 /* TeamDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */; };
+		54ED13F328D76B0C0000C4E0 /* HomeModuleComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */; };
+		54ED13F928D7719E0000C4E0 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */; };
+		54ED13FB28D777930000C4E0 /* DetailOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */; };
+		54ED13FD28D77C300000C4E0 /* TeamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13FC28D77C300000C4E0 /* TeamDetailView.swift */; };
+		54ED13FF28D77C590000C4E0 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED13FE28D77C590000C4E0 /* PlayerTableViewCell.swift */; };
+		54ED140128D77C8A0000C4E0 /* TeamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED140028D77C8A0000C4E0 /* TeamDetailViewController.swift */; };
+		54ED140328D781A80000C4E0 /* DetailModuleComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED140228D781A80000C4E0 /* DetailModuleComposer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +43,26 @@
 		54ED13A528D757E20000C4E0 /* SportsTeamDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsTeamDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ED13A828D757E20000C4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54ED13AA28D757E20000C4E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54ED13AC28D757E20000C4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54ED13AF28D757E20000C4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54ED13B128D757E30000C4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54ED13B428D757E30000C4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54ED13B628D757E30000C4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54ED13BB28D757E30000C4E0 /* SportsTeamDetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTeamDetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTeamDetailTests.swift; sourceTree = "<group>"; };
+		54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Extension.swift"; sourceTree = "<group>"; };
+		54ED13E028D75D740000C4E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54ED13E228D75D820000C4E0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		54ED13E628D764410000C4E0 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		54ED13E828D764520000C4E0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		54ED13EB28D764D80000C4E0 /* GetTeamDetailsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTeamDetailsUseCase.swift; sourceTree = "<group>"; };
+		54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewModel.swift; sourceTree = "<group>"; };
+		54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleComposer.swift; sourceTree = "<group>"; };
+		54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOptionsView.swift; sourceTree = "<group>"; };
+		54ED13FC28D77C300000C4E0 /* TeamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailView.swift; sourceTree = "<group>"; };
+		54ED13FE28D77C590000C4E0 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		54ED140028D77C8A0000C4E0 /* TeamDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewController.swift; sourceTree = "<group>"; };
+		54ED140228D781A80000C4E0 /* DetailModuleComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModuleComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +104,10 @@
 		54ED13A728D757E20000C4E0 /* SportsTeamDetail */ = {
 			isa = PBXGroup;
 			children = (
+				54ED13D828D759D60000C4E0 /* Modules */,
+				54ED13D928D759DD0000C4E0 /* Extensions */,
 				54ED13A828D757E20000C4E0 /* AppDelegate.swift */,
 				54ED13AA28D757E20000C4E0 /* SceneDelegate.swift */,
-				54ED13AC28D757E20000C4E0 /* ViewController.swift */,
-				54ED13AE28D757E20000C4E0 /* Main.storyboard */,
 				54ED13B128D757E30000C4E0 /* Assets.xcassets */,
 				54ED13B328D757E30000C4E0 /* LaunchScreen.storyboard */,
 				54ED13B628D757E30000C4E0 /* Info.plist */,
@@ -95,6 +121,123 @@
 				54ED13BF28D757E30000C4E0 /* SportsTeamDetailTests.swift */,
 			);
 			path = SportsTeamDetailTests;
+			sourceTree = "<group>";
+		};
+		54ED13D828D759D60000C4E0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13DF28D75D020000C4E0 /* DetailModule */,
+				54ED13DE28D75CFA0000C4E0 /* HomeModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		54ED13D928D759DD0000C4E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13DA28D75A0F0000C4E0 /* UIView+Extension.swift */,
+				54ED13DC28D75A790000C4E0 /* StackView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		54ED13DE28D75CFA0000C4E0 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13F028D76AD30000C4E0 /* Composer */,
+				54ED13F128D76AE00000C4E0 /* View */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		54ED13DF28D75D020000C4E0 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13F428D770FD0000C4E0 /* Composer */,
+				54ED13EA28D764C90000C4E0 /* UseCases */,
+				54ED13E528D7642C0000C4E0 /* View */,
+				54ED13ED28D7676D0000C4E0 /* ViewModel */,
+				54ED13E428D764260000C4E0 /* Model */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		54ED13E428D764260000C4E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13E628D764410000C4E0 /* Team.swift */,
+				54ED13E828D764520000C4E0 /* Theme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54ED13E528D7642C0000C4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13F728D771330000C4E0 /* Squad */,
+				54ED13F528D771210000C4E0 /* Team */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54ED13EA28D764C90000C4E0 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13EB28D764D80000C4E0 /* GetTeamDetailsUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		54ED13ED28D7676D0000C4E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13EE28D767950000C4E0 /* TeamDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54ED13F028D76AD30000C4E0 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13F228D76B0C0000C4E0 /* HomeModuleComposer.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		54ED13F128D76AE00000C4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13E028D75D740000C4E0 /* HomeViewController.swift */,
+				54ED13E228D75D820000C4E0 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54ED13F428D770FD0000C4E0 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				54ED140228D781A80000C4E0 /* DetailModuleComposer.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		54ED13F528D771210000C4E0 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				54ED140028D77C8A0000C4E0 /* TeamDetailViewController.swift */,
+				54ED13FC28D77C300000C4E0 /* TeamDetailView.swift */,
+				54ED13F828D7719E0000C4E0 /* DetailHeaderView.swift */,
+				54ED13FA28D777930000C4E0 /* DetailOptionsView.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		54ED13F728D771330000C4E0 /* Squad */ = {
+			isa = PBXGroup;
+			children = (
+				54ED13FE28D77C590000C4E0 /* PlayerTableViewCell.swift */,
+			);
+			path = Squad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +323,6 @@
 			files = (
 				54ED13B528D757E30000C4E0 /* LaunchScreen.storyboard in Resources */,
 				54ED13B228D757E30000C4E0 /* Assets.xcassets in Resources */,
-				54ED13B028D757E20000C4E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,9 +340,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54ED13AD28D757E20000C4E0 /* ViewController.swift in Sources */,
+				54ED13E328D75D820000C4E0 /* HomeView.swift in Sources */,
+				54ED13E928D764520000C4E0 /* Theme.swift in Sources */,
+				54ED140128D77C8A0000C4E0 /* TeamDetailViewController.swift in Sources */,
+				54ED13FB28D777930000C4E0 /* DetailOptionsView.swift in Sources */,
 				54ED13A928D757E20000C4E0 /* AppDelegate.swift in Sources */,
+				54ED140328D781A80000C4E0 /* DetailModuleComposer.swift in Sources */,
+				54ED13E728D764410000C4E0 /* Team.swift in Sources */,
+				54ED13EF28D767950000C4E0 /* TeamDetailViewModel.swift in Sources */,
+				54ED13FD28D77C300000C4E0 /* TeamDetailView.swift in Sources */,
+				54ED13EC28D764D80000C4E0 /* GetTeamDetailsUseCase.swift in Sources */,
+				54ED13DB28D75A0F0000C4E0 /* UIView+Extension.swift in Sources */,
 				54ED13AB28D757E20000C4E0 /* SceneDelegate.swift in Sources */,
+				54ED13F928D7719E0000C4E0 /* DetailHeaderView.swift in Sources */,
+				54ED13DD28D75A790000C4E0 /* StackView+Extension.swift in Sources */,
+				54ED13FF28D77C590000C4E0 /* PlayerTableViewCell.swift in Sources */,
+				54ED13E128D75D740000C4E0 /* HomeViewController.swift in Sources */,
+				54ED13F328D76B0C0000C4E0 /* HomeModuleComposer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54ED13AE28D757E20000C4E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54ED13AF28D757E20000C4E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54ED13B328D757E30000C4E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +516,6 @@
 				INFOPLIST_FILE = SportsTeamDetail/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,7 +543,6 @@
 				INFOPLIST_FILE = SportsTeamDetail/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
