@@ -4,6 +4,8 @@ final class HomeViewController: UIViewController {
   private let homeView = HomeView()
 
   public init(uclSelectionAction: @escaping () -> Void, uelSelectionAction: @escaping () -> Void) {
+    homeView.uclSelectionAction = uclSelectionAction
+    homeView.uelSelectionAction = uelSelectionAction
     super.init(nibName: nil, bundle: Bundle(for: HomeViewController.self))
   }
 

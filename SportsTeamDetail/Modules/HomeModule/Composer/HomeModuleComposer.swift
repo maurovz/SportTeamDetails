@@ -38,6 +38,6 @@ public enum HomeModuleComposer {
   private static func pushDetailModule(navigationController: UINavigationController, theme: Theme) {
     navigationController.navigationBar.tintColor = theme.primaryFontColor
     navigationController.navigationBar.topItem?.backButtonTitle = ""
-//    navigationController.pushViewController(VC, animated: true)
+    navigationController.pushViewController(DetailModuleComposer.makeModule(theme: theme), animated: true)
   }
 }
