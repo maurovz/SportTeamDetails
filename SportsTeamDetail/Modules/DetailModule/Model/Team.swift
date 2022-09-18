@@ -12,5 +12,7 @@ struct Squad {
 
 struct Player {
   let name: String
+  let country: String
+  let score: String
   let image: UIImage
 }

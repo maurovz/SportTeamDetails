@@ -41,18 +41,38 @@ final class LocalRepo: Repository {
 
     // hardcoded data for demo purposes
     // real life scenario could involve fetching from CoreData, Realm etc...
+    let playerImage = UIImage(named: "player")!
     let team = Team(
       squads: [
-        Squad(name: "Defense",
+        Squad(name: "Goalkeepers",
               player: [
-                Player(name: "Messy", image: UIImage(named: "player")!),
-                Player(name: "Messy", image: UIImage(named: "player")!),
-                Player(name: "Messy", image: UIImage(named: "player")!),
-                Player(name: "Messy", image: UIImage(named: "player")!)
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage)
               ]),
-        Squad(name: "Defense", player: [Player(name: "Messy", image: UIImage(named: "player")!)]),
-        Squad(name: "Defense", player: [Player(name: "Messy", image: UIImage(named: "player")!)]),
-        Squad(name: "Defense", player: [Player(name: "Messy", image: UIImage(named: "player")!)])
+        Squad(name: "Defenders",
+              player: [
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage)
+              ]),
+        Squad(name: "Midfildiers",
+              player: [
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage)
+              ]),
+        Squad(name: "Forwards",
+              player: [
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage),
+                Player(name: "Player name", country: "Argentina", score: "50", image: playerImage)
+              ]),
+        Squad(name: "Coach", player: [Player(name: "Player name", country: "Argentina", score: "50", image: playerImage)])
       ])
     completion(.success(team))
   }
