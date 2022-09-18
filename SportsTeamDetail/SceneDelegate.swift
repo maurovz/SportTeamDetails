@@ -5,7 +5,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
   private var navigationController: UINavigationController {
     let navigationController = UINavigationController()
-    navigationController.setViewControllers([HomeViewController()], animated: false)
+    navigationController.setViewControllers([HomeModuleComposer.makeModule(navigationController: navigationController)], animated: false)
     return navigationController
   }
 
